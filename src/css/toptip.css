@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+#tip-container {
+    position:absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background:#F9EDBE;
+    z-index: 3;
+    border: 1px solid #F0C36D;
+    font: 12px ariel, sans-serif;
+}
+#tip-point {
+    position:absolute;
+    background-image:url('../assets/img/tip-point.gif');
+    background-repeat:no-repeat;
+    overflow: hidden;
+    z-index:4;
+}
+#close-tip {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    cursor: pointer;
+    background: url('../assets/img/cancel.png');
+    top: 5px;
+    right: 5px;
+    -pie-png-fix: true;
+    behavior: url('../assets/PIE.htc');
+}
+
